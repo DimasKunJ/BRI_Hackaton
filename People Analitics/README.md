@@ -6,9 +6,11 @@ Binary Classification menggunakan AUC sebagai metricsnya.
 
 ## To Do
 
-1. Nyoba menggunakan model lain (Boosting klo bisa kyk XGboost, Catboost, LGBM, dst)
+1. Nyoba menggunakan model lain (Boosting klo bisa kyk Catboost, LGBM, dst)
 2. Nyobain macem" Imbalance Learning
 3. Feature Selection(?)
+4. Cari metode yang optimal buat nanganin `GPA`
+5. Ensemble Learning (?)
 
 ## Log
 
@@ -29,6 +31,6 @@ Masih pake cara biasa yaitu `stratify` biar proporsi data yang imbalance di trai
 ## Note
 
 1. Untuk sekarang kyknya fokus dulu buat nyari model terbaiknya. Kalau buat **Tuning**-nya nanti" aja setelah model terbaiknya dah dapet.
-2. Entah kenapa scalling data pada variable `GPA` malah nurunin true score di model `Random Forest Classifier`
+2. Entah kenapa scalling data pada variable `GPA` malah nurunin true score padahal nambah bagus di CV
 
 © Catatan Cakrawala 2021
