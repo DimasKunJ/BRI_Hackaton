@@ -9,7 +9,6 @@ Lomba BRI
 
 ## To Do
 
-1. MULAI AJA DULU
-2. Starter Code di ke - 2 Kompetisi
+1. Coba macem-macem model
 
 © Catatan Cakrawala 2021
