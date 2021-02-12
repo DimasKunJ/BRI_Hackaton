@@ -24,9 +24,16 @@ Model - model yang udah di coba dan scorenya bisa di liat [di sini ](https://doc
    2. Feature Encoding<br>
    Udah cukup baik
    3. EDA<br>
-   Udah dikit" **Perlu di tambahin sih** dan mungkin itu ada cara lain buat ngehandle variable `GPA`
-2. Handle Imbalance<br>
-Masih pake cara biasa yaitu `stratify` biar proporsi data yang imbalance di train sma di valid sama. **Mesti di improve pake imbalance learning**
+   Udah dikit" **Perlu di tambahin sih**, perlu metode lain buat menghandle variable `GPA`.
+   4. Handling Outlier
+2. Handle Imbalance
+   1. `stratify`<br>
+      Lewat `StratifiedKFold`
+   2. Imbalance Learn
+      1. SMOTENC<br>
+         SMOTE tapi bisa handle variable categorik juga (hasilnya kurang memuaskan)
+3. Ensemble
+   Ensemble 9 dari 10 Fold pakai `rata-rata` (hasilnya kurang memuaskan)
 
 ## Note
 
